@@ -48,10 +48,10 @@ $(window).scroll(function () {
      * ripples jQuary header animation
      * https://github.com/sirxemic/jquery.ripples
      */
-    // $("#header, .info").ripples({
-    //     dropRadius: 10,
-    //     perturbance: 0.6,
-    //   });
+    $("#header, .info").ripples({
+        dropRadius: 10,
+        perturbance: 0.6,
+      });
 
 
     /**
