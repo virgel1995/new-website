@@ -1,7 +1,9 @@
 $(document).ready(function () {
     /**
+     * jQuary
      * navbar-toggler
      */
+
     $(".navbar-toggler").click(function () {
         $(".navbar-toggler").toggleClass("change")
 
@@ -81,5 +83,34 @@ $(window).scroll(function () {
 
 
 
+/**
+ * owl-carousel
+ * https://owlcarousel2.github.io/OwlCarousel2
+ */
 
+    $('.owl-carousel').owlCarousel({
+        items:4,
+        lazyLoad:true,
+        loop:true,
+        margin:10
+    });
 })
+// end of window load
+
+//  swiper
+var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
