@@ -18,46 +18,6 @@ body {
     */
 }
 
-/* 
-.whatsap-link {
-width: 50px;
-height: 50px;
-    color: #fff;
-    display: inline-block;
-    background: rgb(19, 155, 53);
-    border: #d3325f 2px solid;
-    border-radius: 50px;
-    transition: all 2s ease;
-    animation: fromback;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-}
-
-.chat-link {
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    background: rgb(28, 176, 221);
-    border: #d3325f 2px solid;
-    border-radius: 50px;
-    transition: all 2s ease;
-    animation: fromback;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes fromback {
-    0% {
-        transform: translateY(-10px);
-    }
-    50% {
-        transform: translateY(10px);
-    }
-    100% {
-        transform: translateY(-10px);
-    }
-}  */
-
 .primary-color {
     color: aquamarine;
 }
@@ -475,11 +435,23 @@ height: 50px;
     background   : #d3325f;
     display      : inline-block;
 }
+#whatsap-link {
+    color        : #fff;
+    border-radius: 10px;
+    background   : #30e04d;
+    display      : inline-block;
+}
 
-.scrollTop {
+.scrollTop-back-to-top {
     position: fixed;
     bottom  : 70px;
     right   : 10px;
+    border-radius: 50%;
+}
+.scrollTop-whatsap {
+    position: fixed;
+    bottom  : 70px;
+    left   : 10px;
 }
 
 
